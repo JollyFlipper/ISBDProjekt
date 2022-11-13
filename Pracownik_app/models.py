@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 class Pracownik(models.Model):
     IdP = models.AutoField(primary_key=True)
     LoginP = models.CharField(max_length=20)
